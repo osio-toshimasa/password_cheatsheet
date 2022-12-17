@@ -26,8 +26,9 @@ class TestPasswordPocketBook < Minitest::Test
     yml = YAML.load(password_data)
     p yml
     
-    PasswordPocketBook::to_html(yml)
+    html = PasswordPocketBook::to_html(yml)
+    puts html
     
-    assert yml.length == 2
+    assert html.length > 0
   end
 end
