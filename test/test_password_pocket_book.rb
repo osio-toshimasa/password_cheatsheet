@@ -27,7 +27,9 @@ class TestPasswordPocketBook < Minitest::Test
     p yml
     
     html = PasswordPocketBook::to_html(yml)
-    puts html
+    puts html 
+   
+    File.write('test.html', html)
     
     assert html.length > 0
   end
