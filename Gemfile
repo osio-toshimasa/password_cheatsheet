@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in password_pocket_book.gemspec
+# Specify your gem's dependencies in password_cheatsheet.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
