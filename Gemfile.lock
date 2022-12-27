@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    password_cheatsheet (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    liquid (5.4.0)
+    minitest (5.16.3)
+    rake (13.0.6)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  liquid
+  minitest (~> 5.0)
+  password_cheatsheet!
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.3.7
