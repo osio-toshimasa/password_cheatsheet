@@ -30,6 +30,7 @@ class TestPasswordCheatSheet < Minitest::Test
     puts html 
    
     File.write('test.html', html)
+   
     
     assert html.length > 0
   end
