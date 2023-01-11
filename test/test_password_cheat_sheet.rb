@@ -24,14 +24,8 @@ class TestPasswordCheatSheet < Minitest::Test
     EOS
 
     yml = YAML.load(password_data)
-    p yml
-    
     html = PasswordCheatSheet::to_html(yml)
-    puts html 
-   
-    File.write('bin/test.html', html)
-   
-    
+
     assert html.length > 0
   end
 end
