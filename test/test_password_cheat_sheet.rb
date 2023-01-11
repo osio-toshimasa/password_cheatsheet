@@ -5,7 +5,7 @@ require 'yaml'
 require_relative '../lib/password_cheat_sheet'
 
 class TestPasswordCheatSheet < Minitest::Test
-  def test_that_it_has_a_version_number
+  def test_version_number
     refute_nil ::PasswordCheatSheet::VERSION
   end
 
@@ -21,14 +21,6 @@ class TestPasswordCheatSheet < Minitest::Test
         user: test_user
         pass: test_pass
         desc: this is test site
-      -
-        url: https://test.com
-        user: test_user
-        pass: test_pass
-      -
-        url: https://test.com
-        user: test_user
-        pass: test_pass
     EOS
 
     yml = YAML.load(password_data)
