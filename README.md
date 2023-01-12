@@ -1,6 +1,12 @@
 # PasswordCheatSheet
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/password_cheat_sheet`. To experiment with that code, run `bin/console` for an interactive prompt.
+Password Cheat Sheet is useful for website user and password list storage and use.
+Generates HTML data for passwords from Hash data. This Gem does not have a security feature to protect passwords, so it is designed to be used only for yourself on your local PC.
+
+The generated HTML will access the following third-party libraries.
+* bootstrap.min.css
+* bootstrap-icons.css
+* stimulus.js
 
 ## Installation
 
