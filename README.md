@@ -27,6 +27,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+    require 'password_cheat_sheet'
+    
     password_data = <<~EOS
       -
         url: https://example.com 
