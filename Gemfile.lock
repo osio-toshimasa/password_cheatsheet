@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    password_cheatsheet (0.0.4)
+    password_cheatsheet (0.0.5)
       liquid (~> 5.4.0)
 
 GEM
